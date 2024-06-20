@@ -1,59 +1,66 @@
 /* Global selector */
-*{
+* {
   /* CSS resetting */
   margin: 0%;
   padding: 0%;
 }
-body{
+body {
   background-image: url(https://wallpapers.com/images/hd/dark-grey-aesthetic-81yw05r4l0g7rqni.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 30px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Tag Selector */
-h1{
+h1 {
   text-align: center;
-  
 }
 
 /* Id selector */
-#login{
-  color:white;
+#login {
+  color: white;
   margin-bottom: 10px;
 }
 
 /* Class selector */
-.form-input{
+.form-input {
   padding: 10px 20px;
-  padding-left: 0%;
+  padding-left: 1%;
   padding-right: 45px;
-  background-color:rgba(255, 255, 255, 0.838);
+  background-color: rgba(255, 255, 255, 0.838);
   border-radius: 6px;
-  
 }
 
-.login-container{
-  background-color:rgba(128, 128, 128, 0.582);
+.login-container {
+  background-color: rgba(128, 128, 128, 0.582);
   height: 320px;
   width: 280px;
   padding-top: 40px;
   border-radius: 7px;
-  
-  
 }
-label{
+h1,
+label,
+input {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+label {
   color: white;
-  margin-left: -145px; 
+  margin-left: -145px;
+  
 }
-.div-password{
+.div-password {
   margin-top: 22px;
 }
-#submit-btn{
+#submit-btn {
   margin-top: 40px;
-  padding:10px 35px 10px 35px;
-  background-color:rgba(255, 255, 255, 0.838);
+  padding: 10px 35px 10px 35px;
+  background-color: rgba(255, 255, 255, 0.838);
   border-radius: 6px;
   border-color: black;
+}
+#submit-btn:hover{
+  background-color:rgba(128, 128, 128, 0.582);
+  color: white;
+
+  
 }
