@@ -46,7 +46,6 @@ input {
 label {
   color: white;
   margin-left: -145px;
-  
 }
 .div-password {
   margin-top: 22px;
@@ -58,9 +57,7 @@ label {
   border-radius: 6px;
   border-color: black;
 }
-#submit-btn:hover{
-  background-color:rgba(128, 128, 128, 0.582);
+#submit-btn:hover {
+  background-color: rgba(128, 128, 128, 0.582);
   color: white;
-
-  
 }
