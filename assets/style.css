@@ -120,6 +120,7 @@ p {
   margin-right: 90px;
   border-radius: 10px;
   background-color: rgb(22, 129, 195);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .form > input {
   margin-right: 40px;
