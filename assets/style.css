@@ -17,7 +17,6 @@
 
 /* Tag Selector */
 
-
 /* Id selector */
 #login {
   color: white;
@@ -41,15 +40,15 @@
   padding-top: 40px;
   border-radius: 7px;
 }
-h1,
+/* h1,
 label,
 input {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-label {
+} */
+/* label {
   color: white;
   margin-left: -145px;
-}
+} */
 .div-password {
   margin-top: 22px;
 }
@@ -66,12 +65,11 @@ label {
 }
 /* Login CSS End */
 
-
 /* Navbar CSS */
-.navbar{
+.navbar {
   display: flex;
-  justify-content:space-between;
-  background-color: rgb(75, 95, 37);
+  justify-content: space-between;
+  background-color: rgb(22, 129, 195);
   color: white;
 }
 
@@ -85,10 +83,62 @@ label {
   padding: 9px;
 }
 
-.navbar > div > ul > li:hover{
+.navbar > div > ul > li:hover {
   text-decoration: underline;
   cursor: pointer;
-   
 }
 
+/* Navbar CSS end */
 
+/* FlyEase CSS start */
+.navbar {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-content {
+  display: flex;
+}
+.content {
+  padding: 40px;
+  margin-top: 15px;
+}
+.content > h1 {
+  margin-bottom: 20px;
+}
+.content > h1,
+p {
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.content > p {
+  font-size: large;
+}
+.form {
+  text-align: center;
+  background-color: aqua;
+  padding: 40px;
+  margin-left: 90px;
+  margin-right: 90px;
+  border-radius: 10px;
+  background-color: rgb(22, 129, 195);
+}
+.form > input {
+  margin-right: 40px;
+  padding: 7px;
+  border-radius: 7px;
+  border-color: rgb(60, 134, 169);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#search-btn {
+  margin-left: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.form > label {
+  font-weight: 400;
+  font-size: larger;
+  color: white;
+}
+#search-btn:hover {
+  background-color: skyblue;
+  color: black;
+}
